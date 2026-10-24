@@ -30,14 +30,14 @@ FHIR RDF uses [RDF Turtle](https://www.w3.org/TR/turtle/) (Terse Triple Language
 	or [download examples](https://hl7.org/fhir/downloads.html) from the core spec.
 	See [FHIR RDF](fhir-rdf.html) for an introduction to FHIR RDF.
 3. **Query with SPARQL.** Load the FHIR RDF data into [Apache Jena ARQ](https://jena.apache.org/documentation/query/) 
-	and run the [example queries](rdf.html#sparql-match-graph-patterns).
+	and run the [example queries](sparql.html).
 	No server or OWL reasoner is required. See [Analytics](analytics.html) for more query patterns.
 4. **Validate with ShEx.**  [Download the FHIR ShEx schemas](https://hl7.org/fhir/fhir.shex) and use
 	[Apache Jena](https://jena.apache.org/documentation/shex/) or [Rudof](https://rudof-project.github.io/) to validate the FHIR RDF data.
 	Check schema and tool feature compatibility. ShEx does not implement all [FHIR validation tasks](http://hl7.org/fhir/validation.html).
 	See [Validation](validation.html#quickstart-validating-fhir-rdf-with-shex) for recommended workflows.
 5. **Reason with OWL.** [Download the FHIR OWL ontology](https://hl7.org/fhir/fhir.ttl) 
-	and [prepare](owl.html#prerequisites-for-reasoning) your data for use with an OWL reasoner like [HermiT](https://github.com/owlcs/hermit-reasoner) or [ELK](https://github.com/liveontologies/elk-reasoner).
+	and [prepare](owl.html) your data for use with an OWL reasoner like [HermiT](https://github.com/owlcs/hermit-reasoner) or [ELK](https://github.com/liveontologies/elk-reasoner).
 
 
 ### Scope

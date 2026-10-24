@@ -13,7 +13,7 @@ Example implementations of FHIR RDF applications with SPARQL, ShEx, and OWL.
 A [webinar by Harold Solbrig](https://yosemiteproject.org/fhir-rdf-as-a-bridge-to-the-semantic-web-in-healthcare/) shows how FHIR RDF data can be used with the [SNOMED-CT ontology](https://www.nlm.nih.gov/healthit/snomedct/international.html) to recognize a cancer diagnosis.  An [associated tutorial](https://yosemiteproject.org/tutorial-fhir-rdf-as-a-bridge-to-the-semantic-web-in-healthcare/) details the steps used. Caveat: This webinar and tutorial were based on a previous version of FHIR RDF, so some specifics might have changed.
 
 
-### Selected publications about FHIR RDF or FHIR & RDF
+### Selected publications about FHIR & RDF
 
 #### 2026
 Platt, S. K., Hier, D. B., Yadamsuren, B., Nguyen, A. N., & Hartzell, V. (2026). Transforming FHIR into an OWL Knowledge Graph for Schema-Grounded Natural-Language Querying and Exploratory Data Analysis. Applied Sciences, 16(8), 3936. [https://doi.org/10.3390/app16083936](https://doi.org/10.3390/app16083936)

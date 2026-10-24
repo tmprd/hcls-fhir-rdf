@@ -26,11 +26,13 @@ pages:
   analytics.md:
     title: Analytics
     sparql.md:
-      title: SPARQL
+      title: FHIR SPARQL
     owl.md:
-      title: OWL
+      title: FHIR OWL
   validation.md:
     title: Validation
+    shex.md:
+      title: FHIR ShEx
   # terminology.md:
   #   title: Terminology
   # mapping.md:
@@ -59,9 +61,11 @@ menu:
     RDF: rdf.html
   Analytics:
     Overview: analytics.html
-    SPARQL: sparql.html
-    OWL: owl.html
-  Validation: validation.html
+    FHIR SPARQL: sparql.html
+    FHIR OWL: owl.html
+  Validation:
+    Overview: validation.html
+    FHIR ShEx: shex.html
   # Terminology: terminology.html
   # Mapping: mapping.html
   Artifacts:

@@ -1,4 +1,6 @@
-[RDF (Resource Description Framework)](https://www.w3.org/TR/rdf-primer/) is an abstract data model.
+[RDF (Resource Description Framework)](https://www.w3.org/TR/rdf-primer/) is a W3C standard data model for representing information as a graph of linked statements. 
+[FHIR RDF](fhir-rdf.html) represents FHIR resources in RDF, with Turtle as the syntax for conformant exchange.
+RDF can be used to link FHIR data with other data, ontologies, and terminologies, and to query, validate, and reason over it with SPARQL, ShEx, and OWL.
 
 ### RDF Triples
 
@@ -57,7 +59,7 @@ the relevant release. Application-specific transformations, such as removing int
 | [ShEx](http://shex.io/) | Validates the local shape of RDF nodes. |
 | [OWL](https://www.w3.org/OWL/) | Expresses ontologies and supports logical inference. |
 
-#### SPARQL: match graph patterns
+#### SPARQL: match graph patterns ([FHIR SPARQL](sparql.html))
 
 [SPARQL ("SPARQL Protocol and RDF Query Language")](https://www.w3.org/TR/sparql11-query/) is a query language for RDF. A `SELECT` query returns bindings for
 variables, written with `?`, by matching graph patterns. No ontology or inference is needed:
@@ -83,7 +85,7 @@ results. That does not establish that its active value is false.
 Continue with the [SPARQL examples](sparql.html), which explicitly distinguish
 source graphs from derived query views.
 
-#### ShEx: validate any RDF
+#### ShEx: validate any RDF ([FHIR ShEx](validation.html))
 
 [ShEx (Shape Expressions)](https://shex.io/shex-semantics/) checks whether an RDF node matches a shape, such as
 the allowed properties, value types, and cardinalities for a FHIR resource.
@@ -91,7 +93,7 @@ Use the ShEx schema for the data's FHIR release. Passing a shape check is not
 by itself proof that every FHIR invariant, terminology binding, and business
 rule has been satisfied. See [Validation](validation.html).
 
-#### OWL: open-world logical inference
+#### OWL: open-world logical inference ([FHIR OWL](owl.html))
 [OWL (Web Ontology Language)](https://www.w3.org/TR/owl2-overview/) describes classes and relationships using logical
 axioms. The FHIR ontology is derived from core StructureDefinitions and
 ElementDefinitions. For example, if the ontology says that `fhir:Patient` is a
